@@ -1,0 +1,153 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+body.fall {
+  background-image: url(fall.jpg);
+}
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+header, nav, section, footer {
+  background: pink;
+}
+
+header {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav {
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+}
+
+.spring nav {
+  background-color: yellow;
+}
+
+.spring footer {
+  background-color: pink;
+}
+
+.fall nav, .fall footer {
+  background-color: orange;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: maroon;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: plum;
+  overflow: auto;
+}
+
+aside {
+  background-color: lightblue;
+  width: 25%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px 10px 30px;
+}
+
+aside a:hover {
+  background-color: pink;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+article {
+  background-color: plum;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer {
+  background-color: plum;
+  text-align: center;
+  padding: 2%;
+}
+
+.yesbird {
+  width: 35%;
+  float: right;
+  margin: 0 0 20px 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+  aside {
+    text-align: center;
+  }
+  aside a {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: transparent;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+  .yesbird {
+    float: none;
+    width: 90%;
+    margin: 10px;
+    display:none;
+  }
+}
