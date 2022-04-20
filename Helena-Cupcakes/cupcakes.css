@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header {
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+nav {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 120%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: maroon;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: aqua;
+}
+
+footer {
+  background-color: plum;
+}
