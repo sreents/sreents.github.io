@@ -10,6 +10,38 @@ html, body {
   width: 75%;
 }
 
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+  #wrap {
+    width: 100%;
+  }
+  aside {
+    text-align: center;
+  }
+  aside a {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: transparent;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+
+
+
+}
 header, nav, section, footer {
   background: white;
 }
@@ -18,16 +50,22 @@ header {
   background-color: aqua;
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   padding: 20px;
 }
-
+header {
+  font-size: 100px;
+}
 nav {
   background-color: red;
   padding: 20px;
   text-align: center;
 }
-
+nav {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
 nav li {
   display: inline;
 }
@@ -39,6 +77,8 @@ nav a {
   font-size: 120%;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: left;
+  text-align: center;
 }
 
 nav a:hover {
@@ -46,12 +86,17 @@ nav a:hover {
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-}
+  margin: 3;
+  padding: 5;
 
+}
+nav ul {
+  margin: 5;
+  padding: 0;
+
+}
 section {
-  background-color: aqua;
+  background-color: plum;
 }
 
 footer {
