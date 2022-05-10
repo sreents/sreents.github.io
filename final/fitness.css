@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+
+header {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+h1 {
+  font-family: 'Libre Baskerville', serif;
+
+}
+nav {
+  background-color: grey;
+  padding: 15px;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+  font-size: 90%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: purple;
+}
+
+nav ul {
+  margin: 0;
+  padding:0;
+}
+
+section {
+  background-color: white;
+  padding: 5px 20px;
+}
+
+footer {
+  background-color: yellow;
+  text-align: center;
+  padding: 10px;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
